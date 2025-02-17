@@ -11,7 +11,6 @@ const services = [expressService, awsService, sequelizeService];
       await service.init();
     }
     console.log("Server initialized.");
-    //PUT ADITIONAL CODE HERE.
   } catch (error) {
     console.log(error);
     process.exit(1);
